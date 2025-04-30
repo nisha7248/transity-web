@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Speech Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌍 Speech Translator</h1>
+
+    <label for="targetLang">Translate to:</label>
+    <select id="targetLang">
+      <option value="fr">French</option>
+      <option value="es">Spanish</option>
+      <option value="de">German</option>
+      <option value="hi">Hindi</option>
+      <option value="zh-CN">Chinese</option>
+      <option value="ta">Tamil</option>
+      <option value="en">English</option>
+    </select>
+
+    <br><br>
+    <button onclick="startRecognition()">🎤 Speak</button>
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
